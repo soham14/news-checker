@@ -1,0 +1,90 @@
+<!doctype HTML>
+<html>
+  <head>
+    <title>News Checker</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <style>
+      body {
+        width: 300px;
+        background-color: white;
+        font-family: "Roboto";
+      }
+
+      #message {
+        text-align: center;
+        border-bottom: 1px solid black;
+        padding-bottom: 5px;
+      }
+
+      .title {
+        padding-top: 5px;
+        text-align: center;
+      }
+
+      #scores-container {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+      }
+
+      .score {
+        text-align: center;
+      }
+
+      #counts {
+        text-align: center;
+        padding-top: 5px;
+        font-weight: bold;
+      }
+
+      #words {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-bottom: 1px solid black;
+        text-align: center;
+      }
+
+      #count-results {
+        width: 100%;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+
+      .inner-counts {
+        float: left;
+        width: 33%;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="message"></div>
+    <div id="sentiment" class="title"><u>Sentiment Analysis</u></div>
+    <div id="scores-container">
+      <div>
+        <span style="display: flex;">
+          <div id="pos-score" class="score" style="width: 150px;">POS: ...</div>
+          <div id="neu-score" class="score" style="flex-grow: 1;">NEU: ...</div>
+        </span>
+      </div>
+      <div>
+        <span style="display: flex;">
+          <div id="neg-score" class="score" style="width: 150px;">NEG: ...</div>
+          <div id="com-score" class="score" style="flex-grow: 1;">COM: ...</div>
+        </span>
+      </div>
+    </div>
+    <div id="extraction" class="title"><u>Entity Extraction</u></div>
+    <div id="words">...</div>
+    <div id="counts" class="title"><u>Counts</u></div>
+    <div id="count-results">
+      <div id="word-count" class="inner-counts">Words: ...</div>
+      <div id="sent-count" class="inner-counts">Sentences: ...</div>
+      <div id="time" class="inner-counts">Time: ...</div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
