@@ -18,4 +18,4 @@ The News Checker chrome extension is meant to make news more easily consumable b
 
 ## Miscellaneous
 
-This application was written using python, php, HTML, CSS, and JavaScript. The application's original intention was a proof-of-concept for a news checking design idea for the Human Centered Design Decal. The original article found in the example above can be viewed [here](http://www.theatlantic.com/news/archive/2017/04/french-election-results-first-round/523965/).
+This application was written using Python, PHP, HTML, CSS, and JavaScript. The application's original intention was a proof-of-concept for a news checking design idea for the Human Centered Design Decal. The original article found in the example above can be viewed [here](http://www.theatlantic.com/news/archive/2017/04/french-election-results-first-round/523965/).
