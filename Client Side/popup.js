@@ -1,12 +1,3 @@
-
-
-// message.innerText = "NEWS CHECKER";
-// chrome.storage.onChanged.addListener(function(changes, namespace) {
-// 	chrome.storage.sync.get(null, function(items){message.innerText = JSON.stringify(items)});
-// });
-
-// message.innerText = chrome.extension.getViews({tabId: tab.id}).length;
-
 var message = document.querySelector("#message");
 message.innerText = "NEWS CHECKER";
 
@@ -43,4 +34,3 @@ chrome.tabs.query({"active": true, "currentWindow": true}, function(tab) {
         setScores(serverResponse);
     });
 });
-
