@@ -8,13 +8,13 @@ The News Checker chrome extension is meant to make news more easily consumable b
 
 <p align="center">
   <img src="http://i.imgur.com/euqSVKz.png" alt="An image of the extension fully loaded should appear here."/>
-  The extension when activated.
 </p>
+<p align="center">The extension when activated.</p>
 
 <p align="center">
   <img src="http://i.imgur.com/mU8rfwI.jpg" alt="An image of the extension fully loaded in the context of an article should appear here."/>
-  The extension in the context of an article.
 </p>
+<p align="center">The extension in the context of an article.</p>
 
 ## Miscellaneous
 
